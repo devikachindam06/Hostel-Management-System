@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body align="center" bgcolor="lavender">
+<form action="updatestu.jsp" method="post">
+Enter student id to update:<input type="text" name="sid"><br>
+select what you want to update:<select name="whattochange">
+<option value="password" name="password">Password</option>
+<option value="sname" name="sname">Student Name</option>
+<option value="locality"  name="locality">Locality</option>
+<option value="city"  name="city">City</option>
+<option value="state"  name="state">State</option>
+<option value="country" name="country">Country</option>
+<option value="fathname" name="fathname">Father Name</option>
+<option value="mothname" name="mothname">Mother Name</option>
+<option value="smobile" name="smobile">Student Mobile no.</option>
+<option value="dob" name="dob">DOB</option>
+<option value="mothmobile" name="mothmobile">Mother Mobile no.</option>
+</select>
+Give the updated value:<input type="text" name="updatedvalue">
+<input type="submit" value="update">
+</form>
+
+</body>
+</html>

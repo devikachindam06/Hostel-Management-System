@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body align="center" bgcolor="lavender">
+<form action="updatewarden.jsp" method="post">
+Enter warden id to update:<input type="text" name="wid"><br>
+select what you want to update:<select name="whattochange">
+<option value="password" name="password">Password</option>
+<option value="wname" name="wname">Warden Name</option>
+<option value="locality"  name="locality">Locality</option>
+<option value="city"  name="city">City</option>
+<option value="state"  name="state">State</option>
+<option value="country" name="country">Country</option>
+<option value="wmobile" name="wmobile">Warden Personal Mobile no.</option>
+<option value="doj" name="doj">Doj</option>
+<option value="hmobile" name="hmobile">HostelWork Mobile no.</option>
+</select>
+Give the updated value:<input type="text" name="updatedvalue">
+<input type="submit" value="update">
+</form>
+
+</body>
+</html>

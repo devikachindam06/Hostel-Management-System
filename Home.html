@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with-device-width,initial-scale=1.0">
+        <title> Hostel Management System</title>
+        <style>
+            *{
+    margin:0;
+    padding:0;
+}
+.header{
+    min-height:100vh;
+    width:100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.png);
+    background-position:center;
+    background-size:cover;
+    position:relative;
+} 
+nav{
+    display:flex;
+    padding:2% 6%;
+    justify-content:space-between;
+    align-items:center;
+}
+nav img{
+    width:150px;
+}
+.nav-links{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+color:#fff;
+text-decoration:none;
+font-size:13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width:0%;
+    height:2px;
+    background:#961d14;
+    display:block;
+    margin:auto;
+    transition:0.3s;
+
+}
+.nav-links ul li:hover::after{
+    width:100%;
+}
+.text-box{
+    width:90%;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+}
+.text-box h1{
+    font-size:62px;
+}
+.text-box p{
+    margin:10px 0 40px;
+    font-size:30px;
+    color:#fff;
+
+}
+
+.about{
+    width:80%;
+    margin:auto;
+    text-align:center;
+    padding-top:100px;
+}
+h1{
+    font-size:36px;
+    font-weight:600;
+}
+
+p{
+    color:#777;
+    font-size:14px;
+    font-weight:300;
+    line-height:22px;
+    padding:10px;
+}
+
+.row{
+    margin-top:5%;
+    display:flex;
+    justify-content:space-between;
+
+
+}
+.course-col{
+    flex-basis:31%;
+    background:#fff3f3;
+    border-radius:10px;
+    margin-bottom:5%;
+    padding:20px 12px;
+    box-sizing:border-box;
+    transition:0.5s;
+}
+h3{
+    text-align:center;
+    font-weight:600;
+    margin:10px 0;
+}
+.course-col:hover{
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.2);
+}
+        </style>
+    </head>
+    <body>
+        <section class="header">
+         <nav>
+            <a href="Home.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="login.html">LOGIN</a></li>
+                </ul>
+            </div>
+         </nav>
+<div class="text-box">
+    <h1>Welcome to our Hostel Management System</h1>
+    <p> where convenience meets efficiency! 
+
+    </p>
+</div>
+        </section>
+
+
+<section id="about" class="about">
+    <h1>About Us</h1>
+    <p>Welcome to Our Hostel, a place where comfort, community, and convenience converge to create a home away from home!</p>
+  <div class="row">
+    <div class="course-col">
+    <h3>24/7 Security</h3>
+    <p> Your safety is our top priority. Our hostel is equipped with state-of-the-art security systems, including surveillance cameras and secure access points, ensuring a safe environment for all residents.</p>
+   </div>
+   <div class="course-col">
+    <h3>High Speed Wi-Fi</h3>
+    <p>Stay connected with our high-speed Wi-Fi, available throughout the hostel. Whether you need to work remotely, connect with friends and family, or simply browse the web, we've got you covered</p>
+   </div>
+   <div class="course-col">
+    <h3>Best and Healthy Food</h3>
+    <p>We prioritize your well-being and offer a variety of delicious, nutritious, and well-balanced food options.We strive to make your dining experience not only nourishing but also enjoyable.  </p>
+   </div>
+   </div>
+   <div class="row">
+    <div class="course-col">
+    <h3>Clean and Comfortable Accommodations</h3>
+    <p> We maintain high standards of cleanliness and comfort throughout our hostel. From well-maintained dormitories to private rooms, we provide a variety of accommodation options to suit your preferences.</p>
+   </div>
+   <div class="course-col">
+    <h3>Laundry Facilities</h3>
+    <p>Take advantage of our on-site laundry facilities to keep your clothes fresh and clean during your stay. We understand the importance of convenience in daily chores and your valuable time.</p>
+   </div>
+   <div class="course-col">
+    <h3>Common Areas and Recreation</h3>
+    <p>Socialize and unwind in our common areas. Whether it's a cozy lounge, a vibrant rooftop terrace, or a communal kitchen, we provide spaces for residents to relax, interact, and enjoy their time at the hostel. </p>
+   </div>
+   </div>
+</section>
+
+
+    </body>
+</html>
